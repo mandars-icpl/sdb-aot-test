@@ -8,4 +8,9 @@
     <PublishAot>true</PublishAot>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SurrealDb.Net" Version="0.7.0" />
+    <PackageReference Include="SurrealDb.Reactive" Version="0.7.0" />
+  </ItemGroup>
+
 </Project>
