@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "todos",
+      "applicationUrl": "http://localhost:5199",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SurrealDb": "Server=http://172.17.14.125:8000;Namespace=xdr;Database=xdr;Username=xdr;Password=GsJ3L3MvvRcP;NamingPolicy=SnakeCase"
+      }
+    }
+  }
+}
